@@ -1,0 +1,23 @@
+h1::after{
+    content: " To Jspider";
+}
+h1::before{
+    content: "Hey ,";
+}
+
+h1::selection{
+    background-color: black;
+    color: beige;
+}
+
+li::marker{
+    content: "😘";
+}
+
+h2::first-letter{
+    color: brown;
+}
+
+h2::first-line{
+    background-color: aqua;
+}
