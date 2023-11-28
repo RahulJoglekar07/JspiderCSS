@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Linear Gradient */
+    #A{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-image: linear-gradient(red,green)
+    }
+    /* Repeating Linear Gradient */
+    #B{
+        height: 400px;
+        width: 400px;
+        background-image: repeating-linear-gradient(to left ,red 10%,green 20%)
+    }
+    /* Redial Gradient */
+    #C{
+        height: 400px;
+        width: 400px;
+        background-image: radial-gradient(orange,green,blue) 
+    }
+    /* Repeating Radial Gradient */
+    #D{
+        height: 400px;
+        width: 400px;
+        background-image:repeating-radial-gradient(green,pink,black 10%) 
+    }
+    /* Conic Gradient */
+    #E{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-image: conic-gradient(blue 25%,yellow 25%,Yellow 50%,black 50%,black 75%,green 75%)
+    }
+    /* Repeating Conic Gradient  */
+    #F{
+        height: 400px;
+        width: 400px;
+        border-radius: 50%;
+        background-image:repeating-conic-gradient(blue 1%,white 3%,white 5%)
+    }
+
+    /* Making indian Flag Using Linear gradient and repeating conic gradient */
+    #G{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+        height: 400px;
+        background-image: linear-gradient(orange,white,green)
+       
+    }
+    #g{
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        
+        background-image: repeating-conic-gradient(white 6%,blue 10%) ;
+    }
+
+
+</style>
+<body>
+    <h2> <u>Linear Gradient</u></h2>
+    <div id="A"></div>
+    <h2> <u>Repeating Linear Gradient</u></h2>
+    <div id="B"></div>
+    <h2> <u>Radial Gradient</u></h2>
+    <div id="C"></div>
+    <h2> <u>Repeating Radial Gradient</u></h2>
+    <div id="D"></div>
+    <h2> <u>Conic  Gradient</u></h2>
+    <div id="E"></div>
+    <h2><u>Repeating Conic Gradient</u></h2>
+    <div id="F"></div>
+    <h2> <u> Making indian Flag Using Linear gradient and repeating conic gradient</u></h2>
+    <div id="G">
+        <div id="g"></div>
+    </div>
+
+</body>
+</html>
