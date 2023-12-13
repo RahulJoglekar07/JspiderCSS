@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .cont1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+            margin-left: 10%;
+        }
+        .cont1:hover{
+            background-color: blue;
+            transform: rotate(360deg);
+        }
+        .cont2{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 2s;
+            transition-delay: 2s;
+            margin: 10%;
+        }
+        .cont2:hover{
+            background-color: blue;
+        }
+        .cont3{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 2s;
+            transition-property: all;
+            margin: 10%;
+        }
+        .cont3:hover{
+           height: 300px;
+           width: 300px;
+           background-color: blueviolet;
+        }
+
+        .a1{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+            transition-timing-function: linear;
+            margin: 10%;
+        }
+        .a1:hover{
+            width: 300px;
+        }
+        .a2{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+            transition-timing-function: ease;
+            margin: 10%;
+        }
+        .a2:hover{
+            width: 300px;
+        }
+        .a3{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+           transition-timing-function: ease-in;
+            margin: 10%;
+        }
+        .a3:hover{
+            width: 300px;
+        }
+        .a4{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+           transition-timing-function: ease-out;
+            margin: 10%;
+        }
+        .a4:hover{
+            width: 300px;
+        }
+        .a5{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            transition-duration: 5s;
+           transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+            margin: 10%;
+        }
+        .a5:hover{
+            width: 300px;
+        }
+        .cont4{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+           transition: all 5s linear 2s;
+            margin: 10%;
+        }
+        .cont4:hover{
+           height: 300px;
+           width: 300px;
+           background-color: blueviolet;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="cont1">using transition Duration and transform rotate</div>
+    <div class="cont2">using transition delay and transition Duration</div>
+    <div class="cont3">using transition property all hight width background changes</div>
+    <h3>transition-timing-function</h3>
+        <div class="a1">using linear</div>
+        <div class="a2">using ease</div>
+        <div class="a3">using ease-in</div>
+        <div class="a4">using ease-out</div>
+        <div class="a5">using cubic-beizer</cubic-beizer></div>
+     <h3>using transition</h3>
+    <div class="cont4">using shorthand property Transition </div>
+</body>
+</html>

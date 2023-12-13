@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+</head>
+<style>
+    #A{
+        height: 200px;
+        width: 200px;
+        color: white;
+        background-color: brown;
+        transform: translate(300px,300px);
+                         /* x axis , y axis */
+    }
+    #B{
+        height: 200px;
+        width: 200px;
+        color: white;
+        background-color: blue;
+        transform: scale(1,2);
+                    /* x axis , y axis */
+    }
+    #C{
+        height:200px ;
+        width: 200px;
+        color: white;
+        margin-top: 15%;
+        margin-left: 5%;
+        background-color: chartreuse;
+        transform: skew(40deg,10deg);
+                     /* x axis , y axis */
+    }
+    #D{
+        height:200px ;
+        width: 200px;
+        color: white;
+        margin-top: 10%;
+        margin-left: 5%;
+        background-color: blueviolet;
+        /* transform: rotate(30deg); */
+    }
+    #D:hover{
+        transform: rotate(40deg);
+    }
+    #E{
+        height:200px ;
+        width: 200px;
+        color: white;
+        margin-top: 10%;
+        background-color: cornflowerblue;
+        transform: matrix(60%);
+    }
+</style>
+<body>
+    <div id="A">
+        <h2 >using translate</h2>
+        <h2>position changes here we can use px and deg</h2>
+    </div>
+    <div id="B">
+        <h2>using scale</h2>
+        <h2>Size changes the value should be in numbers</h2>
+    </div>
+    <div id="C">
+        <h2>using skew</h2>
+        <h2>it will rotate here we can use only 1 or 2 deg value</h2>
+    </div>
+    <div id="D">
+         <h2>using rotate</h2>
+         <h2>it is used to rotate cary one deg value</h2>
+    </div>
+    <div id="E">
+        <h2>using matrix</h2>
+        <h2>It is short hand property of transform</h2>
+    </div>
+</body>
+</html>
